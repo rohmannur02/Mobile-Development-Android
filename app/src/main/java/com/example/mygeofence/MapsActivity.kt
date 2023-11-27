@@ -117,7 +117,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                         showToast("Geofencing added")
                     }
                     addOnFailureListener {
-                        showToast("Geofencing not added : ${it.message}")
+                        showToast("Geofencing not added clearly : ${it.message}")
                     }
                 }
             }
